@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="404.0" y="80.0">Circle</node>
+    <node x="520.0" y="80.0">Hexagon</node>
+    <node x="346.0" y="0.0">Shape</node>
+    <node x="0.0" y="160.0">Rectangle</node>
+    <node x="256.0" y="160.0">Rhombus</node>
+    <node x="140.0" y="160.0">Square</node>
+    <node x="272.0" y="80.0">Pentagon</node>
+    <node x="124.0" y="80.0">Quadrangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Rectangle" target="Quadrangle">
+      <point x="0.0" y="-15.0" />
+      <point x="60.0" y="135.0" />
+      <point x="145.33333333333334" y="135.0" />
+      <point x="-42.66666666666666" y="15.0" />
+    </edge>
+    <edge source="Pentagon" target="Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="328.0" y="60.0" />
+      <point x="379.0" y="60.0" />
+      <point x="-11.0" y="15.0" />
+    </edge>
+    <edge source="Circle" target="Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="452.0" y="60.0" />
+      <point x="401.0" y="60.0" />
+      <point x="11.0" y="15.0" />
+    </edge>
+    <edge source="Rhombus" target="Quadrangle">
+      <point x="0.0" y="-15.0" />
+      <point x="308.0" y="135.0" />
+      <point x="230.66666666666666" y="135.0" />
+      <point x="42.66666666666666" y="15.0" />
+    </edge>
+    <edge source="Square" target="Quadrangle">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Quadrangle" target="Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="188.0" y="50.0" />
+      <point x="357.0" y="50.0" />
+      <point x="-33.0" y="15.0" />
+    </edge>
+    <edge source="Hexagon" target="Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="572.0" y="50.0" />
+      <point x="423.0" y="50.0" />
+      <point x="33.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="312.0" y="95.0" />
+  <SelectedNodes>
+    <node>Pentagon</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
